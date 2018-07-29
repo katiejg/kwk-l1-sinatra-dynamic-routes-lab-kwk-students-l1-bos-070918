@@ -27,6 +27,8 @@ class App < Sinatra::Base
       operation = *
       elsif params[:operation] == "divide"
       operation = /
+    else
+      "Sorry, operation can not be performed."
     end
     answer = params[:number1].to_i operation params[:number2].to_i
     answer.to_s
