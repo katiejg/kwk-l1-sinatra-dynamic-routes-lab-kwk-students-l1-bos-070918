@@ -5,5 +5,6 @@ class App < Sinatra::Base
   get '/reversename/:name'
     puts "What name would you like to reverse?"
     name = gets.chomp
-    
+    puts name.reverse
+  end
 end
