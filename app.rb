@@ -15,4 +15,5 @@ class App < Sinatra::Base
     end
     phrase
   end
+  get '/say/:'
 end
