@@ -28,7 +28,7 @@ class App < Sinatra::Base
       elsif params[:operation] == "multiply"
       answer = num1 * num2
       elsif params[:operation] == "divide"
-      operation = /
+      answer = num1 / num2
     else
       "Sorry, operation can not be performed."
     end
