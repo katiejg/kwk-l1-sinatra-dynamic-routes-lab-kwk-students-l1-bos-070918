@@ -29,4 +29,5 @@ class App < Sinatra::Base
       operation = /
     end
     answer = params[:number1].to_i operation params[:number2].to_i
+    answer.to_s
 end
