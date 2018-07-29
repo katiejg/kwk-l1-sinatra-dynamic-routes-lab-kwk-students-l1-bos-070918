@@ -5,5 +5,4 @@ class App < Sinatra::Base
   get '/reversename/:name'
     puts :name.reverse
   end
-  end
 end
