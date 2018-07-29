@@ -7,4 +7,5 @@ class App < Sinatra::Base
     name = gets.chomp
     puts name.reverse
   end
+  end
 end
